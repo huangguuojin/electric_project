@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\发布文件专用</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="404.html">
+      <publishTime>07/10/2015 14:51:25</publishTime>
+    </File>
+    <File Include="about.html">
+      <publishTime>07/10/2015 14:51:25</publishTime>
+    </File>
+    <File Include="bin/electric.dll">
+      <publishTime>04/03/2016 21:30:01</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+      <publishTime>04/02/2016 17:49:58</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap-theme.css.map">
+      <publishTime>04/02/2016 17:49:58</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+      <publishTime>04/02/2016 17:49:58</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap.css">
+      <publishTime>04/02/2016 17:49:58</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap.css.map">
+      <publishTime>04/02/2016 17:49:58</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+      <publishTime>04/02/2016 17:49:58</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/js/bootstrap.js">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/js/bootstrap.min.js">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/js/npm.js">
+      <publishTime>04/02/2016 17:49:59</publishTime>
+    </File>
+    <File Include="careers.html">
+      <publishTime>07/10/2015 14:51:26</publishTime>
+    </File>
+    <File Include="contact.html">
+      <publishTime>07/10/2015 14:51:26</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/02/2016 16:33:44</publishTime>
+    </File>
+    <File Include="css/chocolat.css">
+      <publishTime>05/29/2015 13:21:52</publishTime>
+    </File>
+    <File Include="css/owl.carousel.css">
+      <publishTime>05/29/2015 13:10:40</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>04/03/2016 21:16:36</publishTime>
+    </File>
+    <File Include="faq.html">
+      <publishTime>07/10/2015 14:51:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/15/2015 05:39:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/15/2015 05:39:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/15/2015 05:39:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/15/2015 05:39:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/15/2015 05:39:20</publishTime>
+    </File>
+    <File Include="images/1.jpg">
+      <publishTime>04/02/2016 17:43:44</publishTime>
+    </File>
+    <File Include="images/4-1.jpg">
+      <publishTime>04/03/2016 14:24:33</publishTime>
+    </File>
+    <File Include="images/4-2.jpg">
+      <publishTime>04/03/2016 14:24:33</publishTime>
+    </File>
+    <File Include="images/4-3.jpg">
+      <publishTime>04/03/2016 14:24:33</publishTime>
+    </File>
+    <File Include="images/4-4.jpg">
+      <publishTime>04/03/2016 14:24:33</publishTime>
+    </File>
+    <File Include="images/left.gif">
+      <publishTime>05/29/2015 15:18:04</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>04/02/2016 17:43:44</publishTime>
+    </File>
+    <File Include="images/nav-icon.png">
+      <publishTime>05/27/2015 10:35:24</publishTime>
+    </File>
+    <File Include="images/right.gif">
+      <publishTime>05/29/2015 15:17:46</publishTime>
+    </File>
+    <File Include="images/search.png">
+      <publishTime>05/27/2015 15:42:00</publishTime>
+    </File>
+    <File Include="images/team-2.jpg">
+      <publishTime>06/01/2015 14:43:54</publishTime>
+    </File>
+    <File Include="images/team-4.jpg">
+      <publishTime>06/01/2015 14:43:48</publishTime>
+    </File>
+    <File Include="images/team-5.jpg">
+      <publishTime>06/01/2015 14:43:38</publishTime>
+    </File>
+    <File Include="images/tel.png">
+      <publishTime>04/03/2016 21:04:24</publishTime>
+    </File>
+    <File Include="images/test-1.png">
+      <publishTime>05/28/2015 11:10:20</publishTime>
+    </File>
+    <File Include="images/test-3.png">
+      <publishTime>05/28/2015 12:51:00</publishTime>
+    </File>
+    <File Include="images/text-2.png">
+      <publishTime>05/28/2015 12:49:06</publishTime>
+    </File>
+    <File Include="images/top-arrow.png">
+      <publishTime>05/28/2015 14:56:32</publishTime>
+    </File>
+    <File Include="images/w-1.jpg">
+      <publishTime>06/01/2015 14:43:28</publishTime>
+    </File>
+    <File Include="images/w-2.jpg">
+      <publishTime>06/01/2015 14:43:14</publishTime>
+    </File>
+    <File Include="images/w-3.jpg">
+      <publishTime>06/01/2015 14:43:04</publishTime>
+    </File>
+    <File Include="images/w-4.jpg">
+      <publishTime>06/01/2015 14:42:50</publishTime>
+    </File>
+    <File Include="images/w-5.jpg">
+      <publishTime>06/01/2015 14:48:12</publishTime>
+    </File>
+    <File Include="images/中绿.png">
+      <publishTime>04/02/2016 22:28:22</publishTime>
+    </File>
+    <File Include="images/厂房.jpg">
+      <publishTime>04/03/2016 16:55:38</publishTime>
+    </File>
+    <File Include="images/右.png">
+      <publishTime>04/02/2016 22:32:04</publishTime>
+    </File>
+    <File Include="images/左1.png">
+      <publishTime>04/02/2016 20:43:42</publishTime>
+    </File>
+    <File Include="images/左1绿.png">
+      <publishTime>04/02/2016 21:02:55</publishTime>
+    </File>
+    <File Include="images/左1黑.png">
+      <publishTime>04/02/2016 21:02:55</publishTime>
+    </File>
+    <File Include="images/左番.png">
+      <publishTime>04/03/2016 21:19:06</publishTime>
+    </File>
+    <File Include="images/由番.png">
+      <publishTime>04/03/2016 21:19:06</publishTime>
+    </File>
+    <File Include="images/黑由.png">
+      <publishTime>04/03/2016 21:20:44</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/03/2016 21:24:16</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>03/16/2015 08:42:10</publishTime>
+    </File>
+    <File Include="js/easing.js">
+      <publishTime>05/26/2015 16:51:56</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.0.min.js">
+      <publishTime>05/26/2015 16:51:42</publishTime>
+    </File>
+    <File Include="js/jquery.chocolat.js">
+      <publishTime>05/29/2015 13:19:50</publishTime>
+    </File>
+    <File Include="js/move-top.js">
+      <publishTime>05/26/2015 16:51:50</publishTime>
+    </File>
+    <File Include="js/owl.carousel.js">
+      <publishTime>05/29/2015 13:10:48</publishTime>
+    </File>
+    <File Include="js/responsiveslides.min.js">
+      <publishTime>05/28/2015 11:48:28</publishTime>
+    </File>
+    <File Include="services.html">
+      <publishTime>07/10/2015 14:51:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/03/2016 21:30:03</publishTime>
+    </File>
+    <File Include="说明.htm">
+      <publishTime>03/21/2011 12:55:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

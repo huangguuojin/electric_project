@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\electric\electric\electric\bin\electric.dll.config
+C:\Users\Administrator\Desktop\electric\electric\electric\bin\electric.dll
+C:\Users\Administrator\Desktop\electric\electric\electric\bin\electric.pdb
+C:\Users\Administrator\Desktop\electric\electric\electric\obj\Debug\electric.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\electric\electric\electric\obj\Debug\electric.dll
+C:\Users\Administrator\Desktop\electric\electric\electric\obj\Debug\electric.pdb
