@@ -57,8 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="404.html" />
-    <Content Include="about.html" />
     <Content Include="bootstrap-3.3.5-dist\css\bootstrap-theme.css" />
     <Content Include="bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" />
     <Content Include="bootstrap-3.3.5-dist\css\bootstrap.css" />
@@ -67,19 +65,20 @@
     <Content Include="bootstrap-3.3.5-dist\js\bootstrap.js" />
     <Content Include="bootstrap-3.3.5-dist\js\bootstrap.min.js" />
     <Content Include="bootstrap-3.3.5-dist\js\npm.js" />
-    <Content Include="careers.html" />
-    <Content Include="contact.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\chocolat.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\NewDetails.css" />
+    <Content Include="css\news.css" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\style.css" />
-    <Content Include="faq.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\1.jpg" />
     <Content Include="images\4-1.jpg" />
     <Content Include="images\4-2.jpg" />
     <Content Include="images\4-3.jpg" />
     <Content Include="images\4-4.jpg" />
+    <Content Include="images\down.GIF" />
     <Content Include="images\left.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\nav-icon.png" />
@@ -107,6 +106,7 @@
     <Content Include="images\左番.png" />
     <Content Include="images\由番.png" />
     <Content Include="images\黑由.png" />
+    <Content Include="index.aspx" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\easing.js" />
@@ -115,12 +115,178 @@
     <Content Include="js\move-top.js" />
     <Content Include="js\owl.carousel.js" />
     <Content Include="js\responsiveslides.min.js" />
-    <Content Include="services.html" />
+    <Content Include="qiantai\chanpinzhongxing\Product.aspx" />
+    <Content Include="qiantai\chanpinzhongxing\Product2.aspx" />
+    <Content Include="qiantai\chanpinzhongxing\Product3.aspx" />
+    <Content Include="qiantai\chanpinzhongxing\ProductDetail.aspx" />
+    <Content Include="qiantai\gsjs\CompanyIntroduce.aspx" />
+    <Content Include="qiantai\gsjs\CompanyIntroduce.html" />
+    <Content Include="qiantai\gsjs\CompanyIntroduce1.aspx" />
+    <Content Include="qiantai\gsjs\CompanyIntroduce2.aspx" />
+    <Content Include="qiantai\gsjs\CompanyIntroduce3.aspx" />
+    <Content Include="qiantai\jiamengwangdian\Store.aspx" />
+    <Content Include="qiantai\jiejuefangan\Soulation1.aspx" />
+    <Content Include="qiantai\jiejuefangan\Soulation2.aspx" />
+    <Content Include="qiantai\jiejuefangan\Soulation3.aspx" />
+    <Content Include="qiantai\jiejuefangan\Soulation4.aspx" />
+    <Content Include="qiantai\lianxiwomen\Contacts.aspx" />
+    <Content Include="qiantai\xinwenzhongxin\New1.aspx" />
+    <Content Include="qiantai\xinwenzhongxin\New2.aspx" />
+    <Content Include="qiantai\xinwenzhongxin\NewDetails.aspx" />
+    <Content Include="qiantai\xinwenzhongxin\News.aspx" />
+    <Content Include="qiantai\ziliaozhognxin\Application.aspx" />
+    <Content Include="qiantai\ziliaozhognxin\Document.aspx" />
     <Content Include="Web.config" />
-    <Content Include="说明.htm" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qiantai\chanpinzhongxing\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\Product2.aspx.cs">
+      <DependentUpon>Product2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\Product2.aspx.designer.cs">
+      <DependentUpon>Product2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\Product3.aspx.cs">
+      <DependentUpon>Product3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\Product3.aspx.designer.cs">
+      <DependentUpon>Product3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\ProductDetail.aspx.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\chanpinzhongxing\ProductDetail.aspx.designer.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce.aspx.cs">
+      <DependentUpon>CompanyIntroduce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce.aspx.designer.cs">
+      <DependentUpon>CompanyIntroduce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce1.aspx.cs">
+      <DependentUpon>CompanyIntroduce1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce1.aspx.designer.cs">
+      <DependentUpon>CompanyIntroduce1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce2.aspx.cs">
+      <DependentUpon>CompanyIntroduce2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce2.aspx.designer.cs">
+      <DependentUpon>CompanyIntroduce2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce3.aspx.cs">
+      <DependentUpon>CompanyIntroduce3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\gsjs\CompanyIntroduce3.aspx.designer.cs">
+      <DependentUpon>CompanyIntroduce3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\jiamengwangdian\Store.aspx.cs">
+      <DependentUpon>Store.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\jiamengwangdian\Store.aspx.designer.cs">
+      <DependentUpon>Store.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation1.aspx.cs">
+      <DependentUpon>Soulation1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation1.aspx.designer.cs">
+      <DependentUpon>Soulation1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation2.aspx.cs">
+      <DependentUpon>Soulation2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation2.aspx.designer.cs">
+      <DependentUpon>Soulation2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation3.aspx.cs">
+      <DependentUpon>Soulation3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation3.aspx.designer.cs">
+      <DependentUpon>Soulation3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation4.aspx.cs">
+      <DependentUpon>Soulation4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\jiejuefangan\Soulation4.aspx.designer.cs">
+      <DependentUpon>Soulation4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\lianxiwomen\Contacts.aspx.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\lianxiwomen\Contacts.aspx.designer.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\New1.aspx.cs">
+      <DependentUpon>New1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\New1.aspx.designer.cs">
+      <DependentUpon>New1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\New2.aspx.cs">
+      <DependentUpon>New2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\New2.aspx.designer.cs">
+      <DependentUpon>New2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\NewDetails.aspx.cs">
+      <DependentUpon>NewDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\NewDetails.aspx.designer.cs">
+      <DependentUpon>NewDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\xinwenzhongxin\News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\ziliaozhognxin\Application.aspx.cs">
+      <DependentUpon>Application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\ziliaozhognxin\Application.aspx.designer.cs">
+      <DependentUpon>Application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiantai\ziliaozhognxin\Document.aspx.cs">
+      <DependentUpon>Document.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiantai\ziliaozhognxin\Document.aspx.designer.cs">
+      <DependentUpon>Document.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
@@ -133,6 +299,7 @@
     <Content Include="bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\elec.pubxml" />
     <None Include="Properties\PublishProfiles\electric.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -141,6 +308,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

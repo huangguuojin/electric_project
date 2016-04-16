@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\发布文件专用</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/electric.dll">
+      <publishTime>04/16/2016 21:03:10</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap-theme.css.map">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap.css.map">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/js/bootstrap.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/js/bootstrap.min.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.5-dist/js/npm.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="css/chocolat.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="css/index.css">
+      <publishTime>04/13/2016 22:48:16</publishTime>
+    </File>
+    <File Include="css/NewDetails.css">
+      <publishTime>04/16/2016 20:45:53</publishTime>
+    </File>
+    <File Include="css/news.css">
+      <publishTime>04/16/2016 15:58:20</publishTime>
+    </File>
+    <File Include="css/owl.carousel.css">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>04/16/2016 20:36:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/1.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/4-1.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/4-2.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/4-3.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/4-4.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/down.GIF">
+      <publishTime>04/16/2016 14:16:17</publishTime>
+    </File>
+    <File Include="images/left.gif">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/nav-icon.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/right.gif">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/search.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/team-2.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/team-4.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/team-5.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/tel.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/test-1.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/test-3.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/text-2.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/top-arrow.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/w-1.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/w-2.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/w-3.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/w-4.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/w-5.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/中绿.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/厂房.jpg">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/右.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/左1.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/左1绿.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/左1黑.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/左番.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/由番.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="images/黑由.png">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>04/16/2016 20:50:28</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/16/2016 17:17:27</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="js/easing.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.0.min.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="js/jquery.chocolat.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="js/move-top.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="js/owl.carousel.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="js/responsiveslides.min.js">
+      <publishTime>04/10/2016 17:17:19</publishTime>
+    </File>
+    <File Include="qiantai/chanpinzhongxing/Product.aspx">
+      <publishTime>04/16/2016 20:15:51</publishTime>
+    </File>
+    <File Include="qiantai/chanpinzhongxing/Product2.aspx">
+      <publishTime>04/16/2016 19:33:14</publishTime>
+    </File>
+    <File Include="qiantai/chanpinzhongxing/Product3.aspx">
+      <publishTime>04/16/2016 19:34:00</publishTime>
+    </File>
+    <File Include="qiantai/chanpinzhongxing/ProductDetail.aspx">
+      <publishTime>04/16/2016 20:17:43</publishTime>
+    </File>
+    <File Include="qiantai/gsjs/CompanyIntroduce.aspx">
+      <publishTime>04/16/2016 19:59:34</publishTime>
+    </File>
+    <File Include="qiantai/gsjs/CompanyIntroduce.html">
+      <publishTime>04/16/2016 11:43:21</publishTime>
+    </File>
+    <File Include="qiantai/gsjs/CompanyIntroduce1.aspx">
+      <publishTime>04/16/2016 19:59:47</publishTime>
+    </File>
+    <File Include="qiantai/gsjs/CompanyIntroduce2.aspx">
+      <publishTime>04/16/2016 19:59:23</publishTime>
+    </File>
+    <File Include="qiantai/gsjs/CompanyIntroduce3.aspx">
+      <publishTime>04/16/2016 20:01:10</publishTime>
+    </File>
+    <File Include="qiantai/jiamengwangdian/Store.aspx">
+      <publishTime>04/16/2016 20:57:13</publishTime>
+    </File>
+    <File Include="qiantai/jiejuefangan/Soulation1.aspx">
+      <publishTime>04/16/2016 19:34:48</publishTime>
+    </File>
+    <File Include="qiantai/jiejuefangan/Soulation2.aspx">
+      <publishTime>04/16/2016 19:33:01</publishTime>
+    </File>
+    <File Include="qiantai/jiejuefangan/Soulation3.aspx">
+      <publishTime>04/16/2016 19:35:20</publishTime>
+    </File>
+    <File Include="qiantai/jiejuefangan/Soulation4.aspx">
+      <publishTime>04/16/2016 19:35:42</publishTime>
+    </File>
+    <File Include="qiantai/lianxiwomen/Contacts.aspx">
+      <publishTime>04/16/2016 20:06:20</publishTime>
+    </File>
+    <File Include="qiantai/xinwenzhongxin/New1.aspx">
+      <publishTime>04/16/2016 20:47:51</publishTime>
+    </File>
+    <File Include="qiantai/xinwenzhongxin/New2.aspx">
+      <publishTime>04/16/2016 19:32:35</publishTime>
+    </File>
+    <File Include="qiantai/xinwenzhongxin/NewDetails.aspx">
+      <publishTime>04/16/2016 20:51:26</publishTime>
+    </File>
+    <File Include="qiantai/xinwenzhongxin/News.aspx">
+      <publishTime>04/16/2016 20:49:21</publishTime>
+    </File>
+    <File Include="qiantai/ziliaozhognxin/Application.aspx">
+      <publishTime>04/16/2016 20:03:22</publishTime>
+    </File>
+    <File Include="qiantai/ziliaozhognxin/Document.aspx">
+      <publishTime>04/16/2016 20:04:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/16/2016 21:03:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

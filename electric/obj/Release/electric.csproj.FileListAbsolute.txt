@@ -3,3 +3,8 @@ C:\Users\Administrator\Desktop\electric\electric\electric\bin\electric.dll
 C:\Users\Administrator\Desktop\electric\electric\electric\bin\electric.pdb
 C:\Users\Administrator\Desktop\electric\electric\electric\obj\Release\electric.dll
 C:\Users\Administrator\Desktop\electric\electric\electric\obj\Release\electric.pdb
+F:\electric\electric\electric_project\electric\bin\electric.dll.config
+F:\electric\electric\electric_project\electric\bin\electric.dll
+F:\electric\electric\electric_project\electric\bin\electric.pdb
+F:\electric\electric\electric_project\electric\obj\Release\electric.dll
+F:\electric\electric\electric_project\electric\obj\Release\electric.pdb

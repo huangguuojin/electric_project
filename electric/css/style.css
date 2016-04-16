@@ -29,10 +29,11 @@ body a:hover{
 	text-decoration:none;
 }
 /*--header-top-starts--*/
+.header{margin:0 auto;}
 .header-top {
+  padding: 10px;
+  font-size: 12px;
   	background-color: #141414;
-    padding-top: 20px;
-    padding-bottom: 8px;
     position: relative;
     z-index: 1;
 }
@@ -115,7 +116,7 @@ body a:hover{
 /*--header-starts--*/
 .header {
   	background:white;
-	height:115px;
+	height:70px;
 }
 .navbar-left {
   	float: right !important;
@@ -130,7 +131,7 @@ body a:hover{
   	font-size: 15px;
   	font-weight: 700;
   	text-transform: uppercase;
-	height:115px;
+	// height:115px;
 	color: #181818;
 }
 .nav > li > a:link{ color:#181818;}
@@ -190,7 +191,7 @@ body a:hover{
 .navbar-default .navbar-nav > li > a {
   	color: black;
 	font-size: 16px;
-	padding-top:35px;
+	// padding-top:35px;
 }
 div#bs-example-navbar-collapse-1 {
   	padding: 0;
@@ -261,35 +262,6 @@ div#bs-example-navbar-collapse-1 {
     border-left-color: #1DAE2A;
 }
 .col-md-4:hover{text-decoration:none;}
-/*.col-md-4:hover{
-    border-bottom-color: rgb(0, 150, 53);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-image-outset: 0px;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(0, 150, 53);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(0, 150, 53);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(0, 150, 53);
-border-top-style: none;
-border-top-width: 0px;
-box-sizing: border-box;
-color: rgb(0, 150, 53);
-cursor: auto;
-font-family: arial, 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;
-font-size: 14px;
-font-style: normal;
-font-variant: normal;
-font-weight: normal;
-opacity: 1;
-transform: matrix(1, 0, 0, 1, 0, 0);
-vertical-align: middle;
-}*/
 .media {
  padding-top:10px;
 }
@@ -1781,7 +1753,7 @@ span.glyphicon.glyphicon-earphone, span.glyphicon.glyphicon-map-marker {
 }
 @media (max-width: 1024px){
 .nav > li > a {
-  	padding: 19px 15px;
+  	// padding: 19px 15px;
   	font-size: 13px;
 }
 .project {
@@ -2288,7 +2260,7 @@ span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-earphone,
   	margin-right: 10px;
 }
 .nav > li > a {
-  	padding: 13px 10px;
+  	// padding: 13px 10px;
   	font-size: 11px;
 }
 .navbar-nav {
@@ -2633,7 +2605,7 @@ div#bs-example-navbar-collapse-1 {
   	width: 100%;
 }
 .nav > li > a {
-  	padding: 10px 10px;
+  	// padding: 10px 10px;
 }
 .header-top-right ul li span {
   	width: 23px;
